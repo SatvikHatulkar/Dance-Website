@@ -1,0 +1,21 @@
+extends base.pug
+
+block scripts
+     script 
+        include ../static/index.js
+
+block style
+    style 
+        include ../static/style.css
+        include ../static/styleContactus.css
+
+block content
+    div#div
+        h1 Contact Us
+        form(action= "/contactus", method= "post", class= "myForm")
+            <input type="text"class= “myInput” name="name" placeholder="Enter your name..">
+            <input type="phone" class= “myInput” name="phone" placeholder="Enter your number..">
+            <input type="email" class= “myInput” name="email" placeholder="Enter your email..">
+            <input type="address" class= “myInput” name="address" placeholder="Enter your address..">
+            <input type="consern" class= “myInput” name="consern" placeholder="Enter your consern..">
+            button Submit

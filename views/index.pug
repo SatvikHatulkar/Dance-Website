@@ -1,0 +1,62 @@
+doctype html
+html 
+    head
+        style 
+            include ../static/style.css
+    body
+        nav#navbar
+            ul
+                div#logo
+                    img(src="/static/img/logo.png")
+                li #[a(href="/") Home]
+                li #[a(href="/") About]
+                li #[a(href="/") Services]
+                li #[a(href="/") Class Info]
+                li #[a(href="/") Contact Us]
+        section#greet 
+            div 
+                p.para#para1 Welcome to Satvik's Dance Academy
+                p.para#para2 Eat Sleep Dance Repeat!
+        section#missionSection
+            h2 Our Mission
+            div.card
+                h3 Dance Perfection
+                div.card-box
+                    div.card-img
+                        img(src="/static/img/1.jpg")
+                    div.card-content
+                        p This is the best dance academy of the universe
+
+            div.card
+                h3 Dance the way you like
+                div.card-box
+                    div.card-img
+                        img(src="/static/img/2.jpg")
+                    div.card-content
+                        p This is the best dance academy of the universe
+
+            div.card
+                h3 Expert Teaching
+                div.card-box
+                    div.card-img
+                        img(src="/static/img/3.jpg")
+                    div.card-content
+                        p This is the best dance academy of the universe
+        section#sponsors
+            h2 Our Sponsors
+            div
+                img(src= "/static/img/img1.jpg", alt= "Sponsor Image", class= "spImage")
+                img(src= "/static/img/img2.jpg", alt= "Sponsor Image", class= "spImage")
+                img(src= "/static/img/img3.jpg", alt= "Sponsor Image", class= "spImage")
+                img(src= "/static/img/img4.png", alt= "Sponsor Image", class= "spImage")
+            div.line
+
+
+
+        footer#footer
+            div  
+                strong Copyright 
+                    | Satvik Dance Academy © 2022
+
+    script 
+        include ../static/index.js

@@ -1,0 +1,28 @@
+#div{
+    height: 300px;
+}
+h1{
+    display: block;
+    text-align: center;
+
+}
+.myForm input{
+    display: block;
+    text-align: center;
+    margin: 9px 518px;
+    padding: 7px 100px;
+    border-radius: 13px;
+}
+.myForm input:hover{
+    box-shadow: 1px 1px 5px #00000052, -1px -1px 5px #00000085;
+}
+.myForm button{
+    display: block;
+    text-align: center;
+    margin: 7px 645px;
+    padding: 3px 38px;
+    border-radius: 13px;
+}
+.myForm button:hover{
+    background-color: rgb(0, 149, 255);
+}
